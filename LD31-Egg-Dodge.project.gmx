@@ -11,9 +11,13 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script_create_egg.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_egg</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\GameRoom</room>
