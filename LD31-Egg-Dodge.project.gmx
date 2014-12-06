@@ -11,6 +11,10 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_egg</object>
+    <object>objects\obj_player</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\GameRoom</room>
   </rooms>
