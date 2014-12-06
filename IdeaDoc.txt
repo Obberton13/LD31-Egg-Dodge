@@ -2,17 +2,24 @@
 
 A game where you avoid eggs to reach the high score.
 * Dodge the eggs to keep playing
-* as soon as an egg hits you, your game is over
+* as soon as an egg hits you or you go off screen, your game is over
 * Different colored eggs do different things.
 ** Shoot things at you
 ** gravitate towards you
 ** go in random directions
 ** pull you toward them
+** push you away from them
+** try and rotate around you
 ** more that I come up with
+
 * events happen that do different things.
 ** pull you toward the center
+** pull eggs toward the center
+** push you away from the center
 ** increase the number of eggs
 ** increase the size of the eggs
 ** increase the size of the player
 ** stop eggs temporarily, then rapid fire
+
 * Score = time spent playing before death
+* going off screen = death
