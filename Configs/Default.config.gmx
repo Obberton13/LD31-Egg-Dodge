@@ -426,10 +426,12 @@
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="3">
+    <constants number="5">
+      <constant name="EGG_EVENT_DURATION">300</constant>
       <constant name="EGG_ROTATE_SPEED">5</constant>
       <constant name="EGG_SPEED">10</constant>
       <constant name="EGG_CREATE_DELAY">60</constant>
+      <constant name="PLAYER_SPEED_DEFAULT">8</constant>
     </constants>
   </ConfigConstants>
 </Config>
