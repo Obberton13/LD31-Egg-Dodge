@@ -13,15 +13,18 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script_create_egg.gml</script>
+    <script>scripts\script_reset.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_egg</object>
     <object>objects\obj_player</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_egg_parent</object>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\GameRoom</room>
+    <room>rooms\room_game</room>
+    <room>rooms\room_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

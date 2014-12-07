@@ -4,7 +4,7 @@ height = ceil(room_width/16)+2;
 tall = irandom(height)*16;
 wide = irandom(width)*16;
 
-switch(irandom(4)==0){
+switch(irandom(3)){
 case 0:
     xToSpawn = wide;
     yToSpawn = 32+room_height;
