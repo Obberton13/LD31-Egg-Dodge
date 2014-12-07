@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//room is 24 tall, 32 wide
+            <string>//This is where any event actions would go if we decide to implement them.
 
 tick ++;
 

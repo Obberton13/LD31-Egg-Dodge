@@ -18,6 +18,7 @@
     <object>objects\obj_egg</object>
     <object>objects\obj_player</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_egg_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\GameRoom</room>

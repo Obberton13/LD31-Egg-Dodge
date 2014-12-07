@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_egg_parent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -30,6 +30,8 @@ direct = point_direction(x,y,player.x,player.y);
 spd = irandom(EGG_SPEED-4)+5;
 motion_set(direct, spd);
 rotateSpeed = irandom(15);
+
+state = 0;
 </string>
           </argument>
         </arguments>
@@ -53,6 +55,15 @@ rotateSpeed = irandom(15);
           <argument>
             <kind>1</kind>
             <string>image_angle+=rotateSpeed;
+var left, right, down, up;
+left = (x&lt;-64);
+right = (x&gt;room_width+64);
+down = (y&lt;-64);
+up = (y&gt;room_height+64);
+if((state == 0)&amp;&amp;(left|right|up|down))
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
