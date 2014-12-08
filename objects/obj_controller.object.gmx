@@ -71,7 +71,7 @@ case 0://normal mode
         script_create_egg();
         spawnTick = 0;
     }
-    obj_player.score++;
+    global.score++;
     break;
 case 1://rapid fire
     if(spawnTick&gt;EGG_CREATE_DELAY/6+EGG_EVENT_DURATION/2)
@@ -79,7 +79,7 @@ case 1://rapid fire
         script_create_egg();
         spawnTick = EGG_EVENT_DURATION/2;
     }
-    obj_player.score+=5;
+    global.score+=5;
     break;
 case 2: //slow mode
     if(spawnTick&gt;EGG_CREATE_DELAY)
@@ -87,7 +87,7 @@ case 2: //slow mode
         script_create_egg();
         spawnTick = 0;
     }
-    obj_player.score+=2;
+    global.score+=2;
     break;
 case 3:
     break;

@@ -29,7 +29,8 @@
 direct = point_direction(x,y,player.x,player.y);
 spd = irandom(EGG_SPEED-4)+5;
 motion_set(direct, spd);
-rotateSpeed = irandom(15);
+rotateSpeed = irandom(15)+5;
+if(irandom(1)) rotateSpeed *= -1;
 
 state = 0;
 </string>

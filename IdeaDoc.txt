@@ -23,3 +23,11 @@ A game where you avoid eggs to reach the high score.
 
 * Score = time spent playing before death
 * going off screen = death
+
+
+things I need to do:
+	text/image for what event is happening.
+	new kinds of eggs that do different things.
+	more event types.
+	a way to display the current score.
+	add sounds to like everything.

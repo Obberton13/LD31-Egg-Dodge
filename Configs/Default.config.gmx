@@ -426,7 +426,8 @@
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="5">
+    <constants number="6">
+      <constant name="EGG_TRACKER_ACCEL">4</constant>
       <constant name="EGG_EVENT_DURATION">300</constant>
       <constant name="EGG_ROTATE_SPEED">5</constant>
       <constant name="EGG_SPEED">10</constant>

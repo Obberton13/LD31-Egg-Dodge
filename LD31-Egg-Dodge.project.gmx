@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_egg</sprite>
+    <sprite>sprites\spr_egg_tracker</sprite>
     <sprite>sprites\spr_player</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -21,10 +22,13 @@
     <object>objects\obj_controller</object>
     <object>objects\obj_egg_parent</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_egg_tracker</object>
+    <object>objects\obj_gameOver</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_game</room>
     <room>rooms\room_pause</room>
+    <room>rooms\room_gameOver</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

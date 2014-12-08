@@ -30,6 +30,8 @@ if(returnToGame)
 {
     room_goto(global.my_room);
     room_set_persistent(global.my_room, 0);
+    global.game_state = 0;
+    script_reset();
 }
 </string>
           </argument>
@@ -53,16 +55,16 @@ if(returnToGame)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// source: http://gmc.yoyogames.com/index.php?showtopic=572567
+            <string>// source: http://gmc.yoyogames.com/index.php?showtopic=572567
 // I changed the colors, that is about it.
 
-draw_rectangle_color(room_width/2-100,room_height/2+30,room_width/2+100,room_height/2-30,c_gray,c_gray,c_gray,c_gray,0);
+draw_rectangle_color(room_width/2-100,room_height/2+40,room_width/2+100,room_height/2-40,c_gray,c_gray,c_gray,c_gray,0);
 
 draw_set_alpha(1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
-draw_text(room_width/2,room_height/2,"GAME PAUSED!");
+draw_text(room_width/2,room_height/2,"GAME PAUSED!#SCORE: " + string(global.score));
 </string>
           </argument>
         </arguments>

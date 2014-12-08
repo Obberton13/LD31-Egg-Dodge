@@ -24,4 +24,17 @@ case 3:
 default:
     show_debug_message("Unreachable State in your eggmaking script\n");
 }
-instance_create(xToSpawn, yToSpawn, obj_egg);
+
+var eggTypeToSpawn;
+
+eggToSpawn = irandom(9);
+if(eggToSpawn < 9)
+{
+    eggTypeToSpawn = obj_egg;
+}
+else
+{
+    eggTypeToSpawn = obj_egg_tracker;
+}
+
+instance_create(xToSpawn, yToSpawn, eggTypeToSpawn);
